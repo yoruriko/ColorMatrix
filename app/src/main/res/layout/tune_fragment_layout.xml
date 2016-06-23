@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/dark"
+    android:orientation="vertical">
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/seekBar"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnHue"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableTop="@drawable/ic_hue_selector"
+            android:paddingTop="10dp"
+            android:text="@string/hue"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color_selector" />
+
+        <Button
+            android:id="@+id/btnLuminance"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableTop="@drawable/ic_luminance_selector"
+            android:paddingTop="10dp"
+            android:text="@string/luminance"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color_selector" />
+
+        <Button
+            android:id="@+id/btnSaturation"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableTop="@drawable/ic_saturation_selector"
+            android:paddingTop="10dp"
+            android:text="@string/saturation"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color_selector" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_effects"
+        android:icon="@drawable/ic_effects"
+        android:title="@string/action_title_effects" />
+    <item
+        android:id="@+id/action_tune"
+        android:icon="@drawable/ic_tune"
+        android:title="@string/action_title_tune" />
+    <item
+        android:id="@+id/action_crop"
+        android:icon="@drawable/ic_crop"
+        android:title="@string/action_title_crop" />
+
+    <item
+        android:id="@+id/action_rotate"
+        android:icon="@drawable/ic_rotate"
+        android:title="@string/action_title_rotate" />
+</menu>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TestColorMatrix</string>
+
+    <string name="action_title_crop">Crop</string>
+    <string name="action_title_effects">Effects</string>
+    <string name="action_title_tune">Tune</string>
+    <string name="action_title_rotate">Rotate</string>
+
+    <string name="hue">Hue</string>
+    <string name="saturation">Saturation</string>
+    <string name="luminance">Luminance</string>
+</resources>
